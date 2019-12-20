@@ -1,4 +1,84 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-container{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+}
+.user-profile-image{
+  width: 150px;
+  height: 200px;
+}
+.content{
+  margin: 10px 0px 10px 0px;
+}
+button{
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
+  background-color: rgb(238, 240, 240);
+  color: black;
+  border: 1px solid rgb(195, 195, 195);
+  font-weight: bold;
+  border-radius: 2px;
+}
+p{
+  font-size: .8rem;
+}
+
+.user-id{
+  font-size: 1rem;
+}
+.fade-font-color{
+  color: #848080;
+}
+.active-tab{
+  color: black;
+}
+
+.tab-container{
+  
+}
+.user-details{
+  margin-left: 10px;
+  
+}
+ul.tab-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 500px;
+}
+.tab-list>li{
+  /* margin: 5px 10px 5px 10px; */
+}
+ul.users-repository{
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: start;
+}
+.repo-item>.users-repository{
+  display: flex;
+  justify-content: start;
+}
+.users-repository>p{
+  margin-top: 10px ;
+  margin-right: 10px;
+}
+.repo-item{
+  margin: 15px 0px 10px 0px;
+  border-bottom: 1px rgb(182, 180, 180) solid;
+  padding: 15px;
+}
+.repo-item>h2{
+  color: blue
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +115,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
